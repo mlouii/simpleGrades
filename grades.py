@@ -25,9 +25,10 @@ def parse_input(commands):
 
     if (cmds[0] == "ad"):
         if (no == 2):
-            if (data[cmds[1]]):
-                print("[Error] Duplicate class")
-            else:
+            try:
+                if (data[cmds[1]]):
+                    print("[Error] Duplicate class")
+            except:
                 data[cmds[1]]= {"cats":{},"grade":0}
         if (no == 3):
             try:
