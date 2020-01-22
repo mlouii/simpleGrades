@@ -52,7 +52,7 @@ The [dis] command (Stands for display)
 
 
 ------------------------------
-The [dis] command (Stands for display)
+The [rem] command (Stands for remove)
 ------------------------------
 
 (2 arguments -> Deletes a class): rem,math
